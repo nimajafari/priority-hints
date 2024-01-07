@@ -58,7 +58,7 @@ It may translate well to user-space where different types of content share simil
 ## Example use cases
 
 ### Signal High-Priority Images
-A browser may normally load images in the order the appear in the document, possibly increasing the priority after layout when it can determine the position and vissibility of an image (i.e. making visible in-viewport images load sooner). A priority hint on the image element itself can provide a parse-time signal to the browser to fetch important images, like the main product image in a product detail page, sooner or de-prioritize hidden images like later images in an image carousel.
+A browser may normally load images in the order the appear in the document, possibly increasing the priority after layout when it can determine the position and visibility of an image (i.e. making visible in-viewport images load sooner). A priority hint on the image element itself can provide a parse-time signal to the browser to fetch important images, like the main product image in a product detail page, sooner or de-prioritize hidden images like later images in an image carousel.
 
 ```html
 ...
